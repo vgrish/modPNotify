@@ -1,0 +1,5 @@
+Changelog for modPNotify.
+
+1.0.0-beta
+==============
+- Initial.
