@@ -1,5 +1,9 @@
-Changelog for modPNotify.
+Changelog for modPNotify
+
+1.0.1-beta (06.12.2016)
+==============
+- Fix "download" resolver
 
 1.0.0-beta
 ==============
-- Initial.
+- Initial
