@@ -19,7 +19,7 @@ function build($modules)
         return '';
     }
 
-    $pnotifyPath .= 'pnotify-master/';
+    $pnotifyPath .= 'pnotify-3/';
     $min = '';
 
 
