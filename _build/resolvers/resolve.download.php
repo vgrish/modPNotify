@@ -43,9 +43,9 @@ switch ($options[xPDOTransport::PACKAGE_ACTION]) {
             require MODX_CORE_PATH . 'xpdo/compression/pclzip.lib.php';
         }
 
-        $pnotifySource = 'https://github.com/sciactive/pnotify/archive/master.zip';
+        $pnotifySource = 'https://github.com/sciactive/pnotify/archive/refs/heads/v3.zip';
         $pnotifyPath = MODX_CORE_PATH . 'components/modpnotify/build/';
-        $pnotifyZip = $pnotifyPath . 'pnotify-master.zip';
+        $pnotifyZip = $pnotifyPath . 'pnotify-3.zip';
 
         if (file_exists($pnotifyPath . '.download') AND $cacheManager = $modx->getCacheManager()) {
             $modx->log(modX::LOG_LEVEL_INFO, 'Trying to delete old <b>PNotify</b> files. Please wait...');
